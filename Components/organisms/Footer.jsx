@@ -30,7 +30,7 @@ function Footer() {
                 <Span level="footer">company name Waqas Fahad <br /> Technical Services. Al Qouz Dubai</Span>
                 {/* <Span level="footer">Dubai</Span> */}
               </div>
-              <div className='grid gap-[10px] flex flex-col items-center justify-center  xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
+              <div className=' gap-[10px] flex flex-col items-center justify-center  xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
                 <div className='flex gap-[15px] '>
                   <Link href='mailto:waqaswqspk@gmail.com'> <FaRegEnvelope className='text-[#F97300] ' /></Link>
                   {/* <Span level='footer'><a href="mailto:waqaswqspk@gmail.com">waqaswqspk@gmail.com</a></Span> */}
