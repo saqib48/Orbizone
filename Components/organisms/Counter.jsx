@@ -11,7 +11,7 @@ import Heading from "../atoms/Heading";
 function Counter() {
   return (
     <Container>
-      <div className="my-[30px] text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
+      <div className="my-[40px] text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
         <Heading
           children="Edify College Of IT"
           className="text-4xl font-bold text-[#818CF8] justify-center items-center flex"
@@ -22,7 +22,7 @@ function Counter() {
         />
       </div>
 
-      <div className='flex justify-between mx-[20px] my-[60px]'>
+      <div className='flex justify-between mx-[20px] my-[40px]'>
         <div className="text-white ">
           <Counter3 targetCount={2140} startCount={1} icon={<FaPersonBurst className='text-[30px]' />} contant={"IT Courses"} />
         </div>
