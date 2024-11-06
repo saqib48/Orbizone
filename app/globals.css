@@ -1,4 +1,3 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,41 +5,11 @@
 
 
 
-/*  header button */
-.new-button::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background:#3e3e3e;
-  color: white;
-  position: absolute;
-  z-index: -1;
-  transform: translateY(100%);
-  transition: all .2s ease;
-}
-.new-button:hover::before {
-  transform: translateY(0px);
-  color: white;
-}
-.new-button:hover {
-  color: white;
-}
-.new-button {
-  position: relative;
-  overflow: hidden;
-  padding: 10px 20px ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #3e3e3e;
-  border-radius: 30px;
-}
-
 .rotating-circle {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%; /* To make it circular */
-  animation: rotate360 6s linear infinite; /* 3s is the duration, you can change it */
+  animation: rotate360 20s linear infinite; /* 3s is the duration, you can change it */
 }
 
 @keyframes rotate360 {

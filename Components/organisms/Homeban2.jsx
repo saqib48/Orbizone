@@ -17,7 +17,7 @@ function Homeban2() {
             Courses to Learn
           </h2 >
         </div>
-        <div className='w-[49%]  absolute right-[-20%] z-[999] overflow-hidden'>
+        <div className='w-[49%]  absolute right-[-20%] top-[10%] z-[999] overflow-hidden'>
           <Image
             src='/assits/images/circle.svg'
             alt="Description of the image"

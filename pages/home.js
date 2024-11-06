@@ -6,6 +6,7 @@ import Homeban2 from '@/Components/organisms/Homeban2'
 import HomeBanner from '@/Components/organisms/HomeBanner'
 import React from 'react'
 import Counter from '../Components/organisms/Counter'
+import Journey from '../Components/organisms/Journey'
 
 function home() {
   return (
@@ -15,7 +16,9 @@ function home() {
       <Slider />
       <Homeban2 />
       <Courses />
-      <Counter />
+      <Journey />
+      {/* <Counter /> */}
+
 
 
 
