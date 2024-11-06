@@ -2,7 +2,7 @@ import React from 'react'
 
 function BannerAbout() {
   return (
-    <div className=' my-14 mx-4 '>
+    <div className=' my-[8%] mx-4 '>
       <div className="flex flex-col md:flex-row items-center">
         <div className="flex flex-col w-full lg:w-1/3 justify-center items-center md:items-start p-8">
           <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-200 first-letter:text-blue-500'>About Us</h1>
