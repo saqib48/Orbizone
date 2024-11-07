@@ -26,8 +26,6 @@ const Paragraph = ({ children, variant = '' }) => {
     case "HandyPara":
       paragraphStyle = " text-[#fff] font-light text-[18px] leading-7";
       break;
-
-
     case "tempara":
       paragraphStyle = " text-[#091736] text-[15px] font-[600] tracking-[1px] ";
       break;
@@ -37,6 +35,8 @@ const Paragraph = ({ children, variant = '' }) => {
     case "Relaxpara":
       paragraphStyle = " leading-[25px] text-[#ffffff]  text-[16px] font-[500]  ";
       break;
+
+      
 
     case "paraimg":
       paragraphStyle = " text-md font-[400] mt-2  text-white ";
