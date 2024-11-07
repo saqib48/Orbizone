@@ -48,6 +48,9 @@ const Paragraph = ({ children, variant = '' }) => {
     case "paraAbout":
       paragraphStyle = "text-lg font-[400] leading-relaxed mt-4 mb-4 text-[#d1d5db] ";
       break;
+      case "paraAbout2":
+        paragraphStyle = "text-lg font-[400] leading-relaxed mt-2 mb-2 text-[#d1d5db] ";
+        break;
 
 
     default:
