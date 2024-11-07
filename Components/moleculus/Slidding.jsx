@@ -23,7 +23,7 @@ export default function Slidding() {
         }}
         pagination={false} // Disable pagination if not needed
         modules={[Autoplay]}
-        className="flex items-center h-[100px] justify-center"
+        className="flex items-center h-[165px] justify-center"
       >
 
         <SwiperSlide className="flex items-center h-[165px] justify-center">

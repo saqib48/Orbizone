@@ -9,14 +9,8 @@ function Courses() {
   return (
     <div className="flex flex-col gap-[40px] mt-[50px]  " >
       <div className="text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
-        <Heading
-          children="Featured Courses"
-          className="text-4xl font-bold text-[#4ADE80] justify-center items-center flex"
-        />
-        <Heading
-          children="Popular Courses"
-          className="text-3xl font-bold text-[#FFFFFF] justify-center items-center flex"
-        />
+        <h2 className="text-4xl font-bold text-[#4ADE80] justify-center items-center flex">Featured Courses</h2>
+        <h2 className="text-3xl font-bold text-[#FFFFFF] justify-center items-center flex">Popular Courses</h2>
       </div>
       <div className="mx-[50px] justify-between items-center flex text-center gap-[50px] " >
 
