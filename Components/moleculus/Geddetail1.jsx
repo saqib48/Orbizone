@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Geddetail1() {
   return (
-    <div className='max-w-[1200px] mx-auto px-4 py-10'>
+    <div className='max-w-[1200px] mx-auto px-4 pt-10 pb-2'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
             <div className="space-y-2">
                 <Paragraph variant='paraAbout1'>Welcome to Edify Group of Companies, your trusted partner in shaping educational journeys and unlocking limitless opportunities. As the global landscape evolves at an unprecedented pace, education emerges as the beacon guiding individuals towards their aspirations. At Edify, we embrace this ethos wholeheartedly.</Paragraph>

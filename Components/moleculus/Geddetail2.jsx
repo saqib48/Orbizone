@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from '../atoms/Heading'
 import Paragraph from '../atoms/Paragraph'
+import Image from 'next/image'
 
 function Geddetail2() {
     return (
@@ -46,7 +47,61 @@ function Geddetail2() {
                     <li>GED® grads can earn on average $9,000 more a year</li>
                     <li>GED® grads can enrol for higher education in Pakistan, UK, USA, Australia, Canada, Dubai and many more</li>
                 </ul>
+            </div>
+            <div className="flex gap-4 items-center max-w-2xl mx-auto my-16">
+                <div className="">
+                    <Image
+                        className='rounded-[10px] '
+                        src="/assits/images/ged2.avif"
+                        alt='ged2'
+                        height={500}
+                        width={700}
+                    />
+                </div>
+                <Heading level={6} className='font-semibold md:text-left'>Millions of people have passed the GED exam and gone on to college and better jobs You can be one of them And EDIFY will help you every step of the way!!</Heading>
 
+            </div>
+            <div className="flex gap-2 mb-8">
+                <div className="mt-2 ">
+                    <Heading className='mb-4 ' level={4}>Why Choose GED?</Heading>
+                    <Heading level={5}>Flexibility</Heading>
+                    <Paragraph variant='paraAbout2'>Study at your own pace and take the exam when you feel ready, accommodating various life circumstances and commitments.</Paragraph>
+                    <Heading level={5}>Career Opportunities</Heading>
+                    <Paragraph variant='paraAbout2'>Unlock better job opportunities and higher earning potential with a recognized high school equivalency credential.</Paragraph>
+                    <Heading level={5}>Pathway to Higher Education</Heading>
+                    <Paragraph variant='paraAbout2'>Open doors to colleges, universities, and vocational programs, enabling further academic and professional growth.</Paragraph>
+                    <Heading level={5}>Personal Achievement</Heading>
+                    <Paragraph variant='paraAbout2'>Overcome challenges, set and achieve goals, and experience personal fulfilment and pride in obtaining a GED certificate.</Paragraph>
+                    <Heading level={5}>Ready to embark on your GED preparation journey?</Heading>
+                    <Paragraph variant='paraAbout2'>Contact us on the provided details or Click APPLY Now to learn more about our expert guidance, tailored study materials, and personalized support to help you succeed in the GED exam.</Paragraph>
+                </div>
+                <div className="">
+                <Image
+                        className='rounded-[10px] '
+                        src="/assits/images/ged3.avif"
+                        alt='ged2'
+                        height={1000}
+                        width={1400}
+                    />
+                </div>
+            </div>
+            <div className="flex gap-4 mb-8">
+                <div className="">
+                <Image
+                        className='rounded-[10px] '
+                        src="/assits/images/ged4.avif"
+                        alt='ged2'
+                        height={500}
+                        width={1400}
+                    />
+                </div>
+                <div className="">
+                    <Heading level={4}>Why choose Edify Group for your GED preparation journey?</Heading>
+                    <Heading level={5}>Expert Guidance</Heading>
+                    <Paragraph variant='paraAbout1'>Our team of seasoned education consultants and instructors brings a wealth of knowledge and experience to the table, ensuring personalized support tailored to your unique needs.</Paragraph>
+                    <Heading level={5}>Comprehensive Resources</Heading>
+                    <Paragraph variant='paraAbout1'>From meticulously crafted study materials to simulated practice exams, we equip you with the tools necessary to excel in every aspect of the GED examination.</Paragraph>
+                </div>
             </div>
         </div>
     )
