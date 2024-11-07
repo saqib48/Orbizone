@@ -8,10 +8,9 @@ import Link from 'next/link'
 function Footer() {
   return (
     <div className='bg-[#0C0C0C]'>
+      <hr />
       <Container>
-
         <div className='mt-[50px]'>
-          <hr />
           <div className='flex justify-between gap-[10%] pt-[5%]'>
 
             <div>
@@ -47,14 +46,15 @@ function Footer() {
 
 
           </div>
-          <div className='mt-[50px]'>
-            <hr />
-            <div className='text-white flex justify-center py-[30px]'>
-              <p>© 2024 Edify College of IT. All Rights Reserved. </p>
-            </div>
-          </div>
         </div>
+
       </Container>
+      <div className='mt-[50px]'>
+        <hr />
+        <div className='text-white flex justify-center py-[30px]'>
+          <p>© 2024 Edify College of IT. All Rights Reserved. </p>
+        </div>
+      </div>
     </div>
 
   )
