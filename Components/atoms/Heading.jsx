@@ -8,7 +8,7 @@ const Heading = ({ level, children, className }) => {
       case 1:
         return `xl:text-[30px] md:text-[20px] sm:text-[15px]  xl:font-[600] lg:font-[600] md:font-[600] sm:font-[600] font-[600] xl:leading-[70px] lg:leading-[60px] md:leading-normal sm:leading-normal leading-normal ${className}`;
       case 2:
-        return `xl:text-[42px] lg:text-[34px] md:text-[36px] sm:text-[26px] xl:leading-[70px] lg:leading-[50px] md:leading-[60px] sm:leading-[40px] leading-[30px] text-[23px] text-[#091736] tracking-[-2px] leading-[1.1em] xl:font-[800] lg:font-[800] md:font-[700] sm:font-[600] font-[600] ${className}`;
+        return `class="text-6xl md:text-7xl font-bold mb-5 text-gray-200" ${className}`;
       case 3:
         return `text-xl font-bold text-white ${className}`;
       case 4:
