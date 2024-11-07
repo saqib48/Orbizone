@@ -1,11 +1,14 @@
+import Geddetail from '@/Components/organisms/Geddetail'
+import Gedtext from '@/Components/organisms/Gedtext'
 import Headermain from '@/Components/organisms/Headermain'
 import React from 'react'
 
 function ged() {
   return (
-    <div>
+    <div className='overflow-hidden text-white bg-[#161719]'>
       <Headermain />
-      GED
+      <Gedtext/>
+      <Geddetail/>
 
     </div>
   )

@@ -10,13 +10,13 @@ const Heading = ({ level, children, className }) => {
       case 2:
         return `class="text-6xl md:text-7xl font-bold mb-5 text-gray-200" ${className}`;
       case 3:
-        return `text-xl font-bold text-white ${className}`;
+        return `text-[40px] md:text-6xl capitalize font-bold mb-3 text-white ${className}`;
       case 4:
-        return `text-[#091736] xl:text-[24px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[14px] font-[700] leading-[1.3em] ${className}`;
+        return `text-[25px] text-white mt-4 font-[500]leading-[1.5em] tracking-[2px] ${className}`;
       case 5:
-        return `text-[40px] text-[#091736] font-normal ${className}`;
+        return `text-[20px] text-white font-[500] leading-[1.5em] tracking-[2px] ${className}`;
       case 6:
-        return `text-[14px] font-[400] leading-[1.5em] tracking-[2px] ${className}`;
+        return `text-xl font-bold text-white ${className}`;
       default:
         return "text-lg";
     }

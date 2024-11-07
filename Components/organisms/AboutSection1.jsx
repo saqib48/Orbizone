@@ -11,7 +11,7 @@ function AboutSection1() {
                     <img src="/assits/images/gif1.gif" alt="gif" />
                 </div>
                 <div className="">
-                    <Heading level={1}>Working with us is a pleasure</Heading>
+                    <Heading level={6}>Working with us is a pleasure</Heading>
                 </div>
                 <div className="">
                     <Paragraph variant='paraAbout'>Our vision is cultivating a dynamic learning environment where innovation, adaptability, and excellence converge. We aspire to be the catalyst for transformative education, equipping students with the technical skills, resilience, and creativity required to navigate and excel in the diverse challenges of the modern world.</Paragraph>
@@ -21,7 +21,7 @@ function AboutSection1() {
             <div className=" w-[31%] mx-[7.5%]  mb-2 shadow-lg rounded-xl bg-blue-300 bg-opacity-50">
                 <img className='w-[385px] rounded-t-xl' src="/assits/images/class1.webp" alt="class" />
                 <div className=" p-8 mb-4">
-                    <Heading level={3}>Our Learning Environment</Heading>
+                    <Heading level={6}>Our Learning Environment</Heading>
                     <Paragraph variant='paraimg'>Edify College of IT features a cutting-edge learning environment, blending advanced technology and hands-on educational methods to prepare students for the IT industry.</Paragraph>
                 </div>
             </div>

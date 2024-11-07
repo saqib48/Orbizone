@@ -41,10 +41,12 @@ const Paragraph = ({ children, variant = '' }) => {
     case "paraimg":
       paragraphStyle = " text-md font-[400] mt-2  text-white ";
       break;
-
+      case "paraAbout1":
+        paragraphStyle = "text-[17px] font-[400] leading-relaxed mt-3 mb-3 text-[#d1d5db]";
+        break;
 
     case "paraAbout":
-      paragraphStyle = "text-lg font-[400] leading-relaxed mt-4 mb-4 text-blueGray-600";
+      paragraphStyle = "text-lg font-[400] leading-relaxed mt-4 mb-4 text-[#d1d5db] ";
       break;
 
 
