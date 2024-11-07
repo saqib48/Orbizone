@@ -18,7 +18,7 @@ function Courses() {
           className="text-3xl font-bold text-[#FFFFFF] justify-center items-center flex"
         />
       </div>
-      <div className="container justify-between items-center flex text-center gap-[50px] " >
+      <div className="mx-[50px] justify-between items-center flex text-center gap-[50px] " >
 
         <div data-aos="fade-right">
           <CourseCard

@@ -7,8 +7,8 @@ function HeaderNav() {
 
   return (
     <div>
-      <div className="full">
-        <ul className=" flex gap-10 text-white ">
+      <div className="">
+        <ul className=" flex gap-10 text-white list-none">
           <li>
             <Link href="/" className='hover:text-[lightblue]'>Home</Link>
           </li>

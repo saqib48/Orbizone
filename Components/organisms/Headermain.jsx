@@ -12,6 +12,7 @@ function Headermain() {
         <div className='flex justify-between text-center items-center pt-[10px]'>
           <Logo src='/assits/images/logo.png' />
           <HeaderNav />
+
           <button className='btn btn-outline-secondary text-[white]'>
             Apply Now
           </button>
