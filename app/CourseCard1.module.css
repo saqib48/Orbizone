@@ -1,0 +1,48 @@
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 385px;
+  position: relative;
+  background-color: #292828;
+
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+
+.content {
+  padding: 15px 10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+
+
+.description {
+  color: #ffffff;
+  width:250px;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duration {
+  font-size: 0.9em;
+  color: #ffffff;
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
