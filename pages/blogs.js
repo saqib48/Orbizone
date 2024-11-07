@@ -4,7 +4,7 @@ import React from 'react'
 
 function blogs() {
   return (
-    <div>
+    <div className='overflow-hidden bg-[#161719]'>
       <Headermain />
       blogs
       <Footer/>

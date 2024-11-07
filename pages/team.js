@@ -5,7 +5,7 @@ import Footer from '@/Components/organisms/Footer'
 
 function team() {
   return (
-    <div>
+    <div className='overflow-hidden bg-[#161719]'>
       <Headermain />
       team
       <Footer/>
