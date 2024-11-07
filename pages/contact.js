@@ -1,4 +1,5 @@
 import Headermain from '@/Components/organisms/Headermain'
+import Footer from '@/Components/organisms/Footer'
 import React from 'react'
 
 function contact() {
@@ -6,7 +7,7 @@ function contact() {
     <div>
       <Headermain />
       contact
-
+        <Footer/>
     </div>
   )
 }

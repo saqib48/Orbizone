@@ -19,7 +19,7 @@ function home() {
       <Slider />
       <Homeban2 />
       <Courses />
-      {/* <Journey /> */}
+      {/* <Journey />  */}
       <Counter />
       </TracingBeam>
       <Footer/>
