@@ -7,7 +7,7 @@ import Heading from "../atoms/Heading";
 
 function Courses() {
   return (
-    <div className="flex flex-col gap-[40px] mt-[50px]  " >
+    <div className="flex flex-col gap-[40px] my-[80px]  " >
       <div className="text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
         <h2 className="text-4xl font-bold text-[#4ADE80] justify-center items-center flex">Featured Courses</h2>
         <h2 className="text-3xl font-bold text-[#FFFFFF] justify-center items-center flex">Popular Courses</h2>

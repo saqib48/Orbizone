@@ -16,7 +16,13 @@ const Heading = ({ level, children, className }) => {
       case 5:
         return `text-[20px] text-white font-[500] leading-[1.5em] tracking-[2px] ${className}`;
       case 6:
+<<<<<<< Updated upstream
         return `text-xl font-bold text-white ${className}`;
+=======
+        return `text-[14px] font-[400] leading-[1.5em] tracking-[2px] ${className}`;
+        case 7:
+          return "text-[16px] leading-[24px] font-semibold text-[#242424] ";
+>>>>>>> Stashed changes
       default:
         return "text-lg";
     }
