@@ -10,7 +10,7 @@ import Container from '../atoms/Container';
 function Counter() {
   return (
     <Container>
-      <div className="my-[40px] text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
+      <div className="my-[50px] text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
         <h2 className="text-4xl font-bold text-[#818CF8] justify-center items-center flex">Edify College Of IT</h2>
         <h2 className="text-3xl font-bold text-[#FFFFFF] justify-center items-center flex">Legacy to be Remembered </h2>
       </div>
