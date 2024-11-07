@@ -21,7 +21,7 @@ const Button = ({ href, children, variant, type, onClick }) => {
       break;
     case "footer-button":
       buttonStyle =
-        "bg-[#242424] block hover:bg-[#ff6a28] ease-in-out duration-300 my-[10px]  h-[45px] cursor-pointer border-box pt-[11px]  w-[365px] rounded-[3px]  text-center  text-[13px] font-semibold  text-white";
+        "bg-[#242424] block hover:bg-[#01C3FF] ease-in-out duration-300 my-[10px]  h-[45px] cursor-pointer border-box pt-[11px]  w-[365px] rounded-[3px]  text-center  text-[13px] font-semibold  text-white";
       break;
     case "shop-proButton":
       buttonStyle =

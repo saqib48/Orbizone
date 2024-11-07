@@ -1,0 +1,52 @@
+[debug] [2024-11-07T18:43:38.372Z] ----------------------------------------------------------------------
+[debug] [2024-11-07T18:43:38.377Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:orbizone-63453-8b79f
+[debug] [2024-11-07T18:43:38.378Z] CLI Version:   13.24.1
+[debug] [2024-11-07T18:43:38.378Z] Platform:      win32
+[debug] [2024-11-07T18:43:38.378Z] Node Version:  v22.11.0
+[debug] [2024-11-07T18:43:38.379Z] Time:          Thu Nov 07 2024 10:43:38 GMT-0800 (Pacific Standard Time)
+[debug] [2024-11-07T18:43:38.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-07T18:43:38.577Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-07T18:43:38.578Z] > authorizing via signed-in user (saqibijaz488@gmail.com)
+[debug] [2024-11-07T18:43:38.578Z] [iam] checking project orbizone-63453 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-07T18:43:38.582Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:38.582Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:38.585Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/orbizone-63453:testIamPermissions [none]
+[debug] [2024-11-07T18:43:38.585Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/orbizone-63453:testIamPermissions x-goog-quota-user=projects/orbizone-63453
+[debug] [2024-11-07T18:43:38.586Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/orbizone-63453:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-07T18:43:40.446Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/orbizone-63453:testIamPermissions 200
+[debug] [2024-11-07T18:43:40.447Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/orbizone-63453:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-07T18:43:40.448Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:40.448Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:40.449Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/orbizone-63453 [none]
+[debug] [2024-11-07T18:43:41.112Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/orbizone-63453 200
+[debug] [2024-11-07T18:43:41.112Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/orbizone-63453 {"projectId":"orbizone-63453","projectNumber":"923975813832","displayName":"Orbizone","name":"projects/orbizone-63453","resources":{"hostingSite":"orbizone-63453"},"state":"ACTIVE","etag":"1_887e62a2-d210-4f66-8e1b-168722dac198"}
+[debug] [2024-11-07T18:43:48.202Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:48.202Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:48.203Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/orbizone-63453/sites pageToken=&pageSize=10
+[debug] [2024-11-07T18:43:49.991Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/orbizone-63453/sites 200
+[debug] [2024-11-07T18:43:49.991Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/orbizone-63453/sites {"sites":[{"name":"projects/orbizone-63453/sites/orbizone-63453","defaultUrl":"https://orbizone-63453.web.app","appId":"1:923975813832:web:f9bf0097c6e9ce224cf3fd","type":"DEFAULT_SITE"},{"name":"projects/orbizone-63453/sites/orbizone-63453-8b79f","defaultUrl":"https://orbizone-63453-8b79f.web.app","appId":"1:923975813832:web:e0d94dd99102979b4cf3fd","type":"USER_SITE"}]}
+[debug] [2024-11-07T18:43:49.992Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:49.992Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:43:49.992Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:923975813832:web:e0d94dd99102979b4cf3fd/config [none]
+[debug] [2024-11-07T18:43:50.984Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:923975813832:web:e0d94dd99102979b4cf3fd/config 200
+[debug] [2024-11-07T18:43:50.984Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:923975813832:web:e0d94dd99102979b4cf3fd/config {"projectId":"orbizone-63453","appId":"1:923975813832:web:e0d94dd99102979b4cf3fd","storageBucket":"orbizone-63453.firebasestorage.app","apiKey":"AIzaSyC5oRm7O59Po0dYaLLitbuK3Lqgzpq74gI","authDomain":"orbizone-63453.firebaseapp.com","messagingSenderId":"923975813832","measurementId":"G-NV1DY9D4L0"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-11-07T18:44:11.418Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:44:11.419Z] Checked if tokens are valid: true, expires at: 1731008316200
+[debug] [2024-11-07T18:44:11.419Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/orbizone-63453/sites/orbizone-63453 [none]
+[debug] [2024-11-07T18:44:12.979Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/orbizone-63453/sites/orbizone-63453 200
+[debug] [2024-11-07T18:44:12.979Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/orbizone-63453/sites/orbizone-63453 {"name":"projects/orbizone-63453/sites/orbizone-63453","defaultUrl":"https://orbizone-63453.web.app","appId":"1:923975813832:web:f9bf0097c6e9ce224cf3fd","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.0.2
+
+[info] 
+

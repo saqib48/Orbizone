@@ -6,7 +6,7 @@ const Logo = ({ src, alt, href }) => {
     <div>
       {LogoData.map((item) => {
         return (
-          <a className='w-[130px] block' key={item.href} href={item.href}>
+          <a className='w-[150px] block' key={item.href} href={item.href}>
             <img src={item.src} alt={item.alt} />
           </a>
         )
