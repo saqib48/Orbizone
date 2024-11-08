@@ -1,5 +1,5 @@
 import React from 'react'
-import AnchorTag from '../atoms/anchorTag'
+import AnchorTag from '../atoms/AnchorTag'
 import Container from '../atoms/Container'
 import Input from '../atoms/Input'
 import Button from '../atoms/Button'
@@ -27,7 +27,7 @@ function Footer() {
             <div>
               <h3 className='text-white text-[26px] font-semibold'>Contact Us</h3>
               <div className='text-white grid gap-[20px]  mt-[20px]'>
-                <p>Orbizone, Mushki Shah Rd, near Ali Hospital <br/> Chiniot, Pakistan.</p>
+                <p>Orbizone, Mushki Shah Rd, near Ali Hospital <br /> Chiniot, Pakistan.</p>
                 <p>Phone: <AnchorTag> (800) 123-4567</AnchorTag></p>
                 <p>Email: info@orbizone.com</p>
                 <p> Mon/Fri-9:00/7:00</p>
@@ -38,7 +38,7 @@ function Footer() {
             <div>
               <h3 className='text-white text-[26px] font-semibold'>Join Our Newsletter Now</h3>
               <div className='text-white grid gap-[10px] mt-[20px]'>
-                <p>Stay updated with the latest insights and exclusive offers.<br/> Subscribe to our newsletter for expert tips, industry news,<br/> and more!.</p>
+                <p>Stay updated with the latest insights and exclusive offers.<br /> Subscribe to our newsletter for expert tips, industry news,<br /> and more!.</p>
                 <Input variant='five2' type='text' placeholder='Enter you email address here.....' />
                 <Button variant="footer-button">Submit</Button>
 
